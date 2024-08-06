@@ -1,0 +1,9 @@
+package in.thiru;
+
+public class No04FrequencyOfNumbers {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

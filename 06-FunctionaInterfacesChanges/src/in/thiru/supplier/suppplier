@@ -1,0 +1,9 @@
+=============================
+Supplier Functional Interface[ ONLY SUPPLY(o/p) NOT TAKE ANY INPUT]
+=============================
+
+-> Supplier is a predefined "functional interface" introduced in java 1.8v
+
+-> It contains only one abstract method that is "get ( )" method
+
+-> Supplier interface will "not take any input", it will only "returns the value".

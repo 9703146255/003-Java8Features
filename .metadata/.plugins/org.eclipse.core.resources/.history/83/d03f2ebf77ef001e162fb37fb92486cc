@@ -1,0 +1,91 @@
+package in.thiru;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+
+public class N05SortDecimalReverseOrder {
+	
+	public static void main(String[] args) {
+//		List<Double> asList = Arrays.asList(10.0,25.0,13.0,80.0);
+//		
+//		//by default ascending order
+//		asList.stream().sorted().forEach(s->System.out.println(s));
+//		System.out.println();
+//		//descending order
+//		asList.stream().sorted(Comparator.reverseOrder()).forEach(s->System.out.println(s));
+//		
+//		//first max value and second max value
+//		
+//		Optional<Double> findFirst = asList.stream().sorted(Comparator.reverseOrder()).findFirst();
+//		if(findFirst.isPresent())
+//		{
+//			System.out.println("first MAX VALUE :: "+findFirst.get());
+//		}
+//		
+//
+//		//second max value
+//		Optional<Double> secondMaxVal = asList.stream().sorted(Comparator.reverseOrder()).skip(1).findFirst();
+//		if(secondMaxVal.isPresent())
+//		{
+//			System.out.println("first MAX VALUE :: "+secondMaxVal.get());
+//		}
+//		
+//		
+//		//first min value
+//
+//		Optional<Double> firstMin = asList.stream().sorted().findFirst();
+//		if(firstMin.isPresent())
+//		{
+//			System.out.println("first MAX VALUE :: "+firstMin.get());
+//		}
+//		
+//
+//		//second min value
+//		Optional<Double> secondMin = asList.stream().sorted().skip(1).findFirst();
+//		if(secondMin.isPresent())
+//		{
+//			System.out.println("first MAX VALUE :: "+secondMin.get());
+//		}
+		
+		
+		
+		//ascending order
+		List<Integer> asList = Arrays.asList(10,20,15,30,22);
+		asList.stream().sorted().forEach(s->System.out.println("Natural sorting order :: "+s));
+		
+		asList.stream().sorted(Comparator.reverseOrder()).forEach(s->System.out.println("Reverse order is :: "+s));
+		
+		//first max
+		
+		Optional<Integer> findFirst = asList.stream().sorted().findFirst();
+		if(findFirst.isPresent())
+		{
+			Integer integer = findFirst.get();
+			System.out.println("max value in a given list :: "+integer);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	}
+
+}

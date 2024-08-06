@@ -1,0 +1,11 @@
+==========================
+Consumer Functional Interface[TAKE INPUT /BUT NOT RETURN ANY THING]
+==========================
+
+-> Consumer is predefined functional interface
+
+-> It contains one abstract method i.e accept (T t)
+
+-> Consumer will accept input but it won't return anything ##########
+
+Note: in java 8 forEach ( ) method got introduced. forEach(Consumer consumer) method will take Consumer as parameter.
